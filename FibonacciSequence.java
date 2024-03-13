@@ -35,7 +35,7 @@ public class FibonacciSequence {
             System.out.println("The maximum number of  should be a positive integer ");
         } else {
             System.out.print("Fibonacci Series of "+maxNumber+" numbers: ");
-            for(int i = 0; i < maxNumber; i++){
+            for(int i = 0; i <=maxNumber; i++){
                 System.out.print(fibonacciRecursion(i) +" ");
             }
         }
